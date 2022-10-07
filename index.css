@@ -9,8 +9,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-main{
-    width: 350px;
+main {
+    width: 30%;
     height: 620px;
     margin: 35px auto;
     display: flex;
@@ -62,7 +62,7 @@ input{
 
 button{
     margin-top: 0.3rem;
-    width: 77%;
+    width: 71%;
     padding: 0.6em 2rem;
     background-color: rgba(0, 153, 255, 0.418);
     border: none;
@@ -161,7 +161,6 @@ button{
 .img{
     width: 45%;
     height: 50px;
-    background-color: lightcoral;
 }
 .img img{
     width: 100%;
@@ -203,4 +202,39 @@ footer span{
     margin: 0px;
     color: rgb(118, 118, 118);
     font-size: small;
+}
+@media only screen and (max-width: 1280px ) and (min-width: 601px) {
+    main {
+        width: 300px;
+        height: 620px;
+        margin: 35px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 480px ) and (min-width: 320px) {
+   
+    button {
+        width: 70%;
+    }
+
+    main {
+        width: 80%;
+        height: 620px;
+        margin: 35px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    footer ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    footer ul li{
+        margin: 0px 1rem;
+    }
 }
