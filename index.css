@@ -7,6 +7,19 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
+}
+
+header{
+    text-align: center;
+}
+
+header span{
+    color: rgba(0, 153, 255, 0.418);
+}
+
+header h1{
+    font-weight: 400;
 }
 
 main {
@@ -34,6 +47,12 @@ main {
     padding-top: 1rem;
     letter-spacing: 3px;
     color: rgb(2, 2, 2);
+}
+
+#top img{
+    width: 250px;
+    height: 120px;
+    background-color: white;
 }
 
 form{
